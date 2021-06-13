@@ -16,7 +16,7 @@ public class Writer implements Runnable
       sharedResource.releaseWrite();
       try
       {
-        Thread.sleep((int) Math.random()*150);
+        Thread.sleep(200);
       }
       catch (InterruptedException e)
       {

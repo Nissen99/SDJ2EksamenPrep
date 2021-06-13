@@ -4,7 +4,7 @@ public class Start
   {
     SharedResource sharedResource = new SharedResource();
 
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 5; i++)
     {
       Reader reader = new Reader(sharedResource, i);
       Thread t1 = new Thread(reader);
