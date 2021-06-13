@@ -1,4 +1,4 @@
-package client;
+package simple.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
